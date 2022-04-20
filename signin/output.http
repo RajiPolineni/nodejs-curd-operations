@@ -1,0 +1,22 @@
+POST http://localhost:8000/register/
+Content-Type: application/json
+
+{
+    "username":"raji@123",
+    "email":"raji@krify",
+    "password":"password123"
+}
+
+###
+
+GET http://localhost:8000/users/
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhamlAMTIzIiwiaWF0IjoxNjUwMzY3MDg5fQ.K9EXgZ8S7gHooSYxCkwt1MzbechTSRjCleQdCMMMQ34
+
+###
+POST http://localhost:8000/login/
+Content-Type: application/json
+
+{
+    "username":"raji@123",
+    "password":"password123"
+}

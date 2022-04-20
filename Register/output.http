@@ -1,0 +1,15 @@
+GET http://localhost:8080/
+###
+POST http://localhost:8080/register/
+Content-Type: application/json,
+
+{
+    "firstname":"raji",
+    "lastname":"P",
+    "email":"jnxckj@njcn",
+    "number":"8309840981",
+    "organization":"krify",
+    "picture":"/Register/picture.jpg",
+    "about":"rhbjhd jhadjhs kjdhafkjh kjbdhjksh ksjhkhfdh",
+    "resume":"/Register/Rajyalakshmi Polineni.pdf",
+}

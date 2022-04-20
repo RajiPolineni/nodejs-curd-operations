@@ -1,0 +1,38 @@
+
+//post request
+POST http://localhost:8000/POST/
+Content-Type: application/json
+
+{
+    "id":2,
+    "name":"ritu",
+    "gender":"female",
+    "organization":"student",
+    "location":"rajahmundry"
+}
+
+###
+//get request
+
+GET http://localhost:8000/
+
+
+###
+//get user by id
+
+GET http://localhost:8000/get/1/
+
+###
+
+//put request
+PUT http://localhost:8000/put/1/
+Content-Type: application/json
+
+{
+    "name":"rajyalakshmi"
+}
+
+###
+
+//delete request
+DELETE http://localhost:8000/delete/2/
